@@ -5,8 +5,8 @@ title: 'Systematic evaluation of fMRI data-processing pipelines for consistent f
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Helena M. Gellersen  
+  - Andrea I. Luppi
+  - admin 
   - Zhen-Qi Liu  
   - Alexander R. D. Peattie  
   - Anne E. Manktelow  
@@ -53,8 +53,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://andrealuppi.github.io/publication/luppi2024b_natcomm.pdf'
-url_cite: 'https://andrealuppi.github.io/publication/luppi2024b_natcomm/cite.bib'
+url_pdf: 'https://hmgellersen.github.io/publication/luppi2024b_natcomm.pdf'
+url_cite: 'https://hmgellersen.github.io/publication/luppi2024b_natcomm/cite.bib'
 url_code: 'https://github.com/andrealuppi/Trustworthy-Functional-Connectomics'
 url_dataset: '' # 'https://github.com/HugoBlox/hugo-blox-builder'
 url_poster: ''
