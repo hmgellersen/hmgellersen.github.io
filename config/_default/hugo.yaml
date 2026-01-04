@@ -3,10 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+# Website name
+title: Helena Gellersen, Neuroscientist
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: ''
 
 ############################
 ## LANGUAGE
@@ -25,21 +25,21 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
-pagination:
-  pagerSize: 10
+paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  authors: '/author/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 80
   anchor: smart
-  hint: picture
 timeout: 600000
 taxonomies:
   author: authors
