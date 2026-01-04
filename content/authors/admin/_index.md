@@ -183,7 +183,7 @@ awards:
     summary: |
       Elected Fellow of St John's College following an open competition in all disciplines (GBP 140,000).
     url: https://www.joh.cam.ac.uk/research/academics/fellows/dr-helena-gellersen  
-   - title: 'Henslow Research Fellowship'
+  - title: 'Henslow Research Fellowship'
     date: '2023-10-01'
     awarder: Cambridge Philosophical Society
     summary: |
